@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <script src="https://js.pusher.com/5.1/pusher.min.js"></script>
 
         <!-- Styles -->
