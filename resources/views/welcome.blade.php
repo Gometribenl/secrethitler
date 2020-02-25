@@ -85,7 +85,7 @@
             @endif
 
             <div id="app">
-                <welcome></welcome>
+
             </div>
 
             <script type="text/javascript" src="js/app.js"></script>
