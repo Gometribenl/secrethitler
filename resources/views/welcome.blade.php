@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- blade wordt niet meer gebruikt maar inlogggebeuren moet nog overgezet worden naar een component -->
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -86,7 +87,7 @@
             @endif
 
             <div id="app">
-
+            <welcome :title="'startpagina'"></welcome>
             </div>
 
             <script type="text/javascript" src="js/app.js"></script>

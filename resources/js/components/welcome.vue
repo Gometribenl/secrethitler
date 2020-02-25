@@ -1,11 +1,12 @@
 <template>   
     <div>
-        <h1> msdfssds </h1>
+        <h1> {{title}}</h1>
     </div>
 </template>
 
 <script>
     export default {
+        props : ['title']
     }
 </script>
 
