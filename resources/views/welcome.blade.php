@@ -9,6 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Scripts -->
+        <script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+
         <!-- Styles -->
         <style>
             html, body {
@@ -88,3 +91,4 @@
         </div>
     </body>
 </html>
+
