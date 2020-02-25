@@ -17,7 +17,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #F7633D;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -49,8 +49,8 @@
                 text-align: center;
             }
 
-            .title {
-                font-size: 84px;
+            h1 {
+                font-size: 64px;
             }
 
             .links > a {
@@ -86,7 +86,7 @@
             @endif
 
             <div id="app">
-
+<welcome></welcome>
             </div>
 
             <script type="text/javascript" src="js/app.js"></script>

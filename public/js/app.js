@@ -19524,7 +19524,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v(" msdfssds ")])])
+    return _c("div", [_c("h1", [_vm._v(" Secret Hitler 503 ")])])
   }
 ]
 render._withStripped = true
@@ -31830,8 +31830,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
