@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 import App from './components/App'
 import Welcome from './components/Welcome'
-import Page from './components/Page'
+import InfoPage from './components/InfoPage'
 
 const router = new VueRouter({
     mode: 'history',
@@ -18,15 +18,10 @@ const router = new VueRouter({
         },
         {
             path: '/spa-page',
-            name: 'page',
-            component: Page,
+            name: 'infopage',
+            component: InfoPage,
             props: { 
                 title: "This is the SPA Second Page",
-                author : {
-                    name : "Fisayo Afolayan",
-                    role : "Software Engineer",
-                    code : "Always keep it clean"
-                }
             }
         },    
     ],

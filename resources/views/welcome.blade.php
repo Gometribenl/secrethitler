@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- blade wordt niet meer gebruikt maar inlogggebeuren moet nog overgezet worden naar een component -->
+<!-- blade wordt niet meer gebruikt maar inlogggebeuren moet nog overgezet worden naar -->
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -71,7 +71,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height"> 
-        <script type="text/javascript" src="js/app.js"></script>
+        <!-- <script type="text/javascript" src="js/app.js"></script> -->
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -85,12 +85,12 @@
                     @endauth
                 </div>
             @endif
-
+<!-- 
             <div id="app">
             <welcome :title="'startpagina'"></welcome>
             </div>
 
-            <script type="text/javascript" src="js/app.js"></script>
+            <script type="text/javascript" src="js/app.js"></script> -->
 
         </div>
     </body>
