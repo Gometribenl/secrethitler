@@ -10,5 +10,3 @@ window.Vue = require('vue');
         el: '#app'
 });
 
-
-
