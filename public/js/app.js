@@ -19519,7 +19519,15 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("h1", [_vm._v(" " + _vm._s(_vm.title))])])
+  return _c(
+    "div",
+    [
+      _c("b-img", {
+        attrs: { src: "/img/Secrethitler-no-bg-min.png", alt: "logo" }
+      })
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
