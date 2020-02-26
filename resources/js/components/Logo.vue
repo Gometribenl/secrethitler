@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h1>{{title}}</h1>
+        <img src="secrethitler-no-bg-min"/>
     </div>
 </template>
 
 <script>
-    export default {
-        props : ['title']
-    }
+
+
+    export default {}
 </script>
 
 <style scoped>

@@ -1548,7 +1548,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("h1", [_vm._v(" " + _vm._s(_vm.title))])])
+  return _c("div", [_c("h1", [_vm._v(_vm._s(_vm.title))])])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -1621,7 +1621,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("h1", [_vm._v(" " + _vm._s(_vm.title))])])
+  return _c("div", [_c("h1", [_vm._v(_vm._s(_vm.title))])])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -17138,8 +17138,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

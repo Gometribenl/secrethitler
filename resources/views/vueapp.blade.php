@@ -13,7 +13,8 @@
         </head>
         <body>
             <div id="app">
-                <app></app>
+                <Logo></Logo>
+                <App></App>
             </div>
             <script type="text/javascript" src="js/vueapp.js"></script>
         </body>
