@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 import App from './components/App'
 import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
+import GameRoom from "./components/GameRoom";
 
 const router = new VueRouter({
     mode: 'history',
@@ -20,10 +21,18 @@ const router = new VueRouter({
             path: '/spa-page',
             name: 'infopage',
             component: InfoPage,
-            props: { 
+            props: {
                 title: "This is the SPA Second Page",
             }
-        },    
+        },
+        {
+            path: '/room',
+            name: 'gameroom',
+            component: GameRoom,
+            props: {
+                title: "This is the game room",
+            }
+        },
     ],
 })
 const app = new Vue({
