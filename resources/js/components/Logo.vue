@@ -1,11 +1,13 @@
 <template>
-    
+    <div>
+        <img src="secrethitler-no-bg-min"/>
+    </div>
 </template>
 
 <script>
-    export default {
-        name: "Logo"
-    }
+
+
+    export default {}
 </script>
 
 <style scoped>
