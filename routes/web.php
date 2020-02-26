@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('room', function () {
-    return view('gameroom');
-});
+Route::get('/{any}', function(){
+    return view('vueapp');
+})->where('any', '.*');
