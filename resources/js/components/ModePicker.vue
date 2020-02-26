@@ -1,7 +1,7 @@
 <template>   
     <div class="Centerpage">
-        <div class="btnContainer"><CustomButton name="public"></CustomButton></div>
-        <div class="btnContainer"><CustomButton name="private"><router-link :to="{ name: 'welcome' }">Home</router-link></CustomButton></div>
+        <div class="btnContainer"><router-link :to="{ name: 'welcome' }"><CustomButton name="public"></CustomButton></router-link></div>
+        <div class="btnContainer"><router-link :to="{ name: 'welcome' }"><CustomButton name="private"></CustomButton></router-link></div>
     </div>
 </template>
 
@@ -19,6 +19,7 @@ div{
 }
 .btnContainer{
     display: inline-block;
+    margin: 10px;
 }
 .Centerpage{
     width: 100%;
