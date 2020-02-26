@@ -1,7 +1,9 @@
 <template>
     <div>
-        <h1> {{title}}</h1>
-
+<img src="/img/secrethitler-no-bg-min.png" height="100px" width="250px">
+    </div>
+    <div>
+        <img src="/img/liberal-board-min.png" height="100px" width="250px">
     </div>
 </template>
 
@@ -10,7 +12,6 @@
         props : ['title']
     }
 </script>
-
 <style scoped>
 
 </style>
