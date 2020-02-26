@@ -139,7 +139,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title']
 });
@@ -727,15 +726,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("img", {
-        staticStyle: { "padding-left": "0px" },
-        attrs: {
-          src: "/img/secrethitler-logo.png",
-          height: "20%",
-          width: "20%"
-        }
-      }),
-      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c("img", {
