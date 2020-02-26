@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import Fraktur from 'fraktur.css'
 import CustomButton from "./CustomButton"
     export default {
         props : ['title'],
@@ -15,5 +16,8 @@ import CustomButton from "./CustomButton"
 </script>
 
 <style scoped>
+div{
+    font-family: Fraktur BT, serif;
+}
 
 </style>
