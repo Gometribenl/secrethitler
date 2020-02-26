@@ -16042,8 +16042,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
