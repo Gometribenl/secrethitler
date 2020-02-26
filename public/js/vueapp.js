@@ -128,6 +128,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title']
 });
@@ -703,8 +715,140 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticStyle: { "padding-left": "0px" },
+        attrs: {
+          src: "/img/secrethitler-logo.png",
+          height: "20%",
+          width: "20%"
+        }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-8%" },
+        attrs: {
+          src: "/img/liberal-board-min.png",
+          height: "40%",
+          width: "40%"
+        }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%" },
+        attrs: { src: "/img/facist-board-min.png", height: "40%", width: "40%" }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "padding-left": "0px" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
+        attrs: {
+          src: "/img/liberal-membership-card-min.png",
+          height: "10%",
+          width: "10%"
+        }
+      })
+    ])
+  }
+]
+render._withStripped = true
 
 
 
