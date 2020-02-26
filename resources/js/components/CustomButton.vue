@@ -17,10 +17,10 @@ export default {
 button {
     background-color: transparent;
     border-radius: 12px;
-    height: 40px;
+    height: 50px;
     width: 120px;
     font-family: Fraktur BT, serif;
-    font-size: 150%;
-    color: whitesmoke;
+    font-size: 200%;
+    color: white;
 }
 </style>

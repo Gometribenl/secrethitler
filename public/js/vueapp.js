@@ -175,11 +175,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['title'],
   components: {
     CustomButton: _CustomButton__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
@@ -240,7 +238,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 12px;\r\n    height: 40px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 150%;\r\n    color: whitesmoke;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 12px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\n}\r\n", ""]);
 
 // exports
 
@@ -259,7 +257,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\n}\n.Centerpage[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\r\n", ""]);
 
 // exports
 
@@ -1574,17 +1572,32 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      _c("h1", [_vm._v(" " + _vm._s(_vm.title))]),
-      _vm._v(" "),
-      _c("CustomButton", { attrs: { name: "public" } }),
-      _vm._v(" "),
-      _c("CustomButton", { attrs: { name: "private" } })
-    ],
-    1
-  )
+  return _c("div", { staticClass: "Centerpage" }, [
+    _c(
+      "div",
+      { staticClass: "btnContainer" },
+      [_c("CustomButton", { attrs: { name: "public" } })],
+      1
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "btnContainer" },
+      [
+        _c(
+          "CustomButton",
+          { attrs: { name: "private" } },
+          [
+            _c("router-link", { attrs: { to: { name: "welcome" } } }, [
+              _vm._v("Home")
+            ])
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

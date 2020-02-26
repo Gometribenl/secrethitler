@@ -1,8 +1,7 @@
 <template>   
-    <div>
-        <h1> {{title}}</h1>
-        <CustomButton name="public"></CustomButton>
-        <CustomButton name="private"></CustomButton>
+    <div class="Centerpage">
+        <div class="btnContainer"><CustomButton name="public"></CustomButton></div>
+        <div class="btnContainer"><CustomButton name="private"><router-link :to="{ name: 'welcome' }">Home</router-link></CustomButton></div>
     </div>
 </template>
 
@@ -10,8 +9,7 @@
 import Fraktur from 'fraktur.css'
 import CustomButton from "./CustomButton"
     export default {
-        props : ['title'],
-        components : { CustomButton}
+        components : { CustomButton }
     }
 </script>
 
@@ -19,5 +17,11 @@ import CustomButton from "./CustomButton"
 div{
     font-family: Fraktur BT, serif;
 }
-
+.btnContainer{
+    display: inline-block;
+}
+.Centerpage{
+    width: 100%;
+    text-align: center;
+}
 </style>
