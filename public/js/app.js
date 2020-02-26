@@ -123,8 +123,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\danyo\Desktop\Secret-Hitler\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
