@@ -1,6 +1,6 @@
-<template>   
+<template>
     <div>
-        <h1> {{title}}</h1>
+        <b-img src="/img/Secrethitler-no-bg-min.png" alt="logo"></b-img>
     </div>
 </template>
 
