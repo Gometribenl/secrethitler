@@ -1,6 +1,6 @@
 <template>   
     <div>
-        <h1> Secret Hitler 503 </h1>
+        <h1>Secret Hitler</h1>
     </div>
 </template>
 
