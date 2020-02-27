@@ -1,18 +1,21 @@
 <template>
     <div>
-        <logo></logo>
+        <img src="/img/secrethitler-logo.png" alt="logo">
     </div>
 </template>
 
 <script>
-    import Logo from "./Logo"
+
 
     export default {
-        props : ['title'],
-        components : {Logo}
+        props: ['title']
+
     }
 </script>
 
 <style scoped>
+img {
+    height: 350px;
+}
 
 </style>

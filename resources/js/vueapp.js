@@ -6,6 +6,9 @@ Vue.use(VueRouter)
 import App from './components/App'
 import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
+import GameRoom from "./components/GameRoom";
+import ModePicker from './components/ModePicker'
+
 
 const router = new VueRouter({
     mode: 'history',
@@ -20,12 +23,28 @@ const router = new VueRouter({
             path: '/spa-page',
             name: 'infopage',
             component: InfoPage,
-            props: { 
+            props: {
                 title: "This is the SPA Second Page",
             }
-        },    
+        },
+        {
+            path: '/room',
+            name: 'gameroom',
+            component: GameRoom,
+            props: {
+                title: "This is the game room",
+            }
+        },
+        {
+            path: '/modepicker',
+            name: 'modepicker',
+            component: ModePicker,
+            props: {
+                title: "Game mode picker"
+            }
+        }
     ],
-})
+});
 const app = new Vue({
     el: '#app',
     components: { App },
