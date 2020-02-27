@@ -17,14 +17,14 @@ const router = new VueRouter({
             path: '/home',
             name: 'welcome',
             component: Welcome,
-            props: { title: "This is the SPA home" }
+            props: { title: "welcome" }
         },
         {
             path: '/info',
             name: 'info',
             component: InfoPage,
             props: {
-                title: "This is the SPA Second Page",
+                title: "Info",
             }
         },
         {
@@ -32,7 +32,7 @@ const router = new VueRouter({
             name: 'gameroom',
             component: GameRoom,
             props: {
-                title: "This is the game room",
+                title: "game room",
             }
         },
         {
