@@ -201,6 +201,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -264,7 +269,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 12px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 12px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\r\n    border-top-color: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: black;\r\n    border-bottom-color: black\n}\r\n", ""]);
 
 // exports
 
@@ -302,7 +307,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\r\n    margin: 10px;\n}\n.Centerpage[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\r\n    margin: 10px;\r\n    top: 50%;\n}\n.btnWrapper[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\n.logoWrapper[data-v-039b643c]{\n}\r\n", ""]);
 
 // exports
 
@@ -1682,34 +1687,38 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "Centerpage" }, [
-    _c(
-      "div",
-      { staticClass: "btnContainer" },
-      [
-        _c(
-          "router-link",
-          { attrs: { to: { name: "welcome" } } },
-          [_c("CustomButton", { attrs: { name: "public" } })],
-          1
-        )
-      ],
-      1
-    ),
+  return _c("div", [
+    _c("div", { staticClass: "logoWrapper" }),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "btnContainer" },
-      [
-        _c(
-          "router-link",
-          { attrs: { to: { name: "welcome" } } },
-          [_c("CustomButton", { attrs: { name: "private" } })],
-          1
-        )
-      ],
-      1
-    )
+    _c("div", { staticClass: "btnWrapper" }, [
+      _c(
+        "div",
+        { staticClass: "btnContainer" },
+        [
+          _c(
+            "router-link",
+            { attrs: { to: { name: "welcome" } } },
+            [_c("CustomButton", { attrs: { name: "public" } })],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "btnContainer" },
+        [
+          _c(
+            "router-link",
+            { attrs: { to: { name: "welcome" } } },
+            [_c("CustomButton", { attrs: { name: "private" } })],
+            1
+          )
+        ],
+        1
+      )
+    ])
   ])
 }
 var staticRenderFns = []
