@@ -232,7 +232,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['title']
+  props: {
+    height: Number
+  }
 });
 
 /***/ }),
@@ -361,7 +363,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer[data-v-61a7c374] {\r\n   position: fixed;\r\n   left: 0;\r\n   bottom: 0;\r\n   width: 100%;\r\n   color: white;\r\n   text-align: center;\n}\r\n", ""]);
+exports.push([module.i, "\n.footer[data-v-61a7c374] {\r\n   position: fixed;\r\n   left: 0;\r\n   bottom: 0;\r\n   width: 100%;\r\n   color: white;\r\n   text-align: center;\r\n   font-family: sans-serif;\r\n   font-size: 14px;\n}\r\n", ""]);
 
 // exports
 
@@ -2089,7 +2091,7 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("logo"),
+      _c("logo", { attrs: { height: "" } }),
       _vm._v(" "),
       _c("div", [
         _c("div", { staticClass: "logoWrapper" }),
