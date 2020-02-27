@@ -31,7 +31,4 @@ div{
     width: 100%;
     text-align: center;
 }
-.logoWrapper{
-    
-}
 </style>

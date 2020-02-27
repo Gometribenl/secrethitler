@@ -1,12 +1,15 @@
 <template>
     <div>
-        <h1>{{title}}</h1>
+        <logo></logo>
     </div>
 </template>
 
 <script>
+    import Logo from "./Logo"
+
     export default {
-        props : ['title']
+        props : ['title'],
+        components : {Logo}
     }
 </script>
 
