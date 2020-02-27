@@ -1,7 +1,6 @@
+
 <template>
-    <div>
-        <h1> {{title}}</h1>
-    </div>
+
 </template>
 
 <script>
@@ -11,5 +10,8 @@
 </script>
 
 <style scoped>
-
+    .list-group {
+        overflow-y: scroll;
+        height: 200px;
+    }
 </style>
