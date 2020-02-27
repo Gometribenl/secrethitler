@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="button" align="right">
+        <div class="button" align="right" style="margin: 10px">
             <router-link :to="{ name: 'welcome' }"><button style="background-color: black;   border-radius: 12px; height: 50px; width: 120px;
  font-family: Fraktur BT, serif;
     font-size: 200%;
