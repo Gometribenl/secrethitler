@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="button" align="right" style="margin: 10px">
+        <div class="button" align="right" style="margin: 1%">
             <router-link :to="{ name: 'welcome' }"><button style="background-color: black;   border-radius: 12px; height: 50px; width: 120px;
  font-family: Fraktur BT, serif;
     font-size: 200%;
@@ -24,9 +24,9 @@
         </div>
         <div class="img">
             <br>
-            <img src="/img/liberal-board-min (2).jpg" height="40%" width="40%">
+            <img src="/img/liberal-board-min (2).jpg" height="40%" width="40%" style="padding-left: 2%">
             <br>
-            <img src="/img/facist-board-min (2).jpg" height="40%" width="40%" style="margin-top: 1%">
+            <img src="/img/facist-board-min (2).jpg" height="40%" width="40%" style="margin-top: 1%; padding-left: 2%">
             <br>
             <div class="membership" style="margin-top: 1%">
             <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 3%">

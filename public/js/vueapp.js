@@ -20897,7 +20897,7 @@ var render = function() {
       "div",
       {
         staticClass: "button",
-        staticStyle: { margin: "10px" },
+        staticStyle: { margin: "1%" },
         attrs: { align: "right" }
       },
       [
@@ -20960,6 +20960,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
+        staticStyle: { "padding-left": "2%" },
         attrs: {
           src: "/img/liberal-board-min (2).jpg",
           height: "40%",
@@ -20970,7 +20971,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "1%" },
+        staticStyle: { "margin-top": "1%", "padding-left": "2%" },
         attrs: {
           src: "/img/facist-board-min (2).jpg",
           height: "40%",
