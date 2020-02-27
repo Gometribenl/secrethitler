@@ -107,6 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -125,8 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -158,6 +159,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GameRoom.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/GameRoom.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['title']
+});
 
 /***/ }),
 
@@ -210,8 +246,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomButton */ "./resources/js/components/CustomButton.vue");
 //
 //
@@ -1712,6 +1748,12 @@ var render = function() {
         [_vm._v("Spa-Page")]
       ),
       _vm._v(" "),
+      _c(
+        "router-link",
+        { staticClass: "nav-link", attrs: { to: { name: "gameroom" } } },
+        [_vm._v("GameRoom")]
+      ),
+      _vm._v(" "),
       _c("main", [_c("router-view")], 1),
       _vm._v(" "),
       _c("Footer")
@@ -1774,6 +1816,139 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "footer" }, [
       _c("p", [_vm._v("Copyright 2020 © 503 server not available ")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-board-min (2).jpg",
+          height: "40%",
+          width: "40%"
+        }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/facist-board-min (2).jpg",
+          height: "40%",
+          width: "40%"
+        }
+      }),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
+        }
+      })
     ])
   }
 ]
@@ -17254,6 +17429,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/GameRoom.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/GameRoom.vue ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true& */ "./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true&");
+/* harmony import */ var _GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GameRoom.vue?vue&type=script&lang=js& */ "./resources/js/components/GameRoom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "191b4ed8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/GameRoom.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/GameRoom.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/GameRoom.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./GameRoom.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GameRoom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/InfoPage.vue":
 /*!**********************************************!*\
   !*** ./resources/js/components/InfoPage.vue ***!
@@ -17599,10 +17843,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ "./resources/js/components/App.vue");
 /* harmony import */ var _components_Welcome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Welcome */ "./resources/js/components/Welcome.vue");
 /* harmony import */ var _components_InfoPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/InfoPage */ "./resources/js/components/InfoPage.vue");
-/* harmony import */ var _components_ModePicker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/ModePicker */ "./resources/js/components/ModePicker.vue");
+/* harmony import */ var _components_GameRoom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/GameRoom */ "./resources/js/components/GameRoom.vue");
+/* harmony import */ var _components_ModePicker__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/ModePicker */ "./resources/js/components/ModePicker.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
 
 
 
@@ -17624,9 +17870,16 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
       title: "This is the SPA Second Page"
     }
   }, {
+    path: '/room',
+    name: 'gameroom',
+    component: _components_GameRoom__WEBPACK_IMPORTED_MODULE_5__["default"],
+    props: {
+      title: "This is the game room"
+    }
+  }, {
     path: '/modepicker',
     name: 'modepicker',
-    component: _components_ModePicker__WEBPACK_IMPORTED_MODULE_5__["default"],
+    component: _components_ModePicker__WEBPACK_IMPORTED_MODULE_6__["default"],
     props: {
       title: "Game mode picker"
     }
@@ -17660,8 +17913,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
