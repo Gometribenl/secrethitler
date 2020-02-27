@@ -2191,7 +2191,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-23a91724]{\r\n    font-family: Fraktur BT, serif;\r\n    color: white;\r\n    background: transparent;\r\n    height: 50px;\r\n    width: auto;\r\n    font-size: 40px;\r\n    border: 0;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-23a91724]{\r\n    font-family: Fraktur BT, serif;\r\n    color: white;\r\n    background: transparent;\r\n    height: 50px;\r\n    width: auto;\r\n    font-size: 40px;\r\n    border: none;\n}\r\n", ""]);
 
 // exports
 
@@ -2210,7 +2210,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 12px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\r\n    border-top-color: transparent;\r\n    border-left-color: transparent;\r\n    border-right-color: black;\r\n    border-bottom-color: black;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 6px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\r\n    border: 0.5px solid;\r\n    border-color: black;\r\n    box-shadow: 2px 2px black;\n}\r\n", ""]);
 
 // exports
 
@@ -2248,7 +2248,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg[data-v-1c796f16] {\n    height: 350px;\n}\n", ""]);
+exports.push([module.i, "\nimg[data-v-1c796f16] {\n    height: auto;\n    width: 70%\n}\n", ""]);
 
 // exports
 
@@ -2267,7 +2267,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\r\n    margin: 10px;\r\n    top: 50%;\n}\n.btnWrapper[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\n.logoWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.mainWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.backbtnWrapper[data-v-039b643c]{\r\n    height: 50px;\r\n    margin: 0;\n}\r\n", ""]);
+exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\r\n    text-align: center;\r\n    margin-right: 10%;\r\n    margin-left: 10%;\r\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\n.logoWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.mainWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.backbtnWrapper[data-v-039b643c]{\r\n    height: 50px;\r\n    margin: 0;\n}\r\n", ""]);
 
 // exports
 
@@ -21028,7 +21028,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticStyle: { "text-align": "center" } }, [
-      _c("img", { attrs: { src: "/img/secrethitler-logo.png", alt: "logo" } })
+      _c("img", {
+        attrs: { src: "/img/secrethitler-logo.png", height: "300", alt: "logo" }
+      })
     ])
   }
 ]
