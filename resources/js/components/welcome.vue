@@ -1,6 +1,6 @@
 <template>
     <div>
-        <logo></logo>
+        <logo height=""></logo>
 
         <div>
             <div class="logoWrapper">
