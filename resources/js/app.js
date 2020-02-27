@@ -13,7 +13,7 @@ Vue.use(VueChatScroll)
 Vue.component('message-component', require('./components/MessageComponent.vue').default);
 
 
-const app = new Vue({
+const chat = new Vue({
     el: '#app',
     data: {
         message: '',
