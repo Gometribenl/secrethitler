@@ -218,6 +218,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title']
 });
@@ -1941,6 +1943,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
+        staticStyle: { "margin-top": "1%" },
         attrs: {
           src: "/img/facist-board-min (2).jpg",
           height: "40%",
@@ -1950,85 +1953,101 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      })
+      _c(
+        "div",
+        { staticClass: "membership", staticStyle: { "margin-top": "1%" } },
+        [
+          _c("img", {
+            staticStyle: { "padding-left": "3%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          })
+        ]
+      )
     ])
   }
 ]
@@ -2332,7 +2351,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.6
+  * vue-router v3.1.5
   * (c) 2020 Evan You
   * @license MIT
   */
@@ -3275,8 +3294,7 @@ function fillParams (
       (regexpCompileCache[path] = pathToRegexp_1.compile(path));
 
     // Fix #2505 resolving asterisk routes { name: 'not-found', params: { pathMatch: '/not-found' }}
-    // and fix #3106 so that you can work with location descriptor object having params.pathMatch equal to empty string
-    if (typeof params.pathMatch === 'string') { params[0] = params.pathMatch; }
+    if (params.pathMatch) { params[0] = params.pathMatch; }
 
     return filler(params, { pretty: true })
   } catch (e) {
@@ -4024,10 +4042,7 @@ function setupScroll () {
   // location.host contains the port and location.hostname doesn't
   var protocolAndPath = window.location.protocol + '//' + window.location.host;
   var absolutePath = window.location.href.replace(protocolAndPath, '');
-  // preserve existing history state as it could be overriden by the user
-  var stateCopy = extend({}, window.history.state);
-  stateCopy.key = getStateKey();
-  window.history.replaceState(stateCopy, '', absolutePath);
+  window.history.replaceState({ key: getStateKey() }, '', absolutePath);
   window.addEventListener('popstate', function (e) {
     saveScrollPosition();
     if (e.state && e.state.key) {
@@ -5242,7 +5257,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.6';
+VueRouter.version = '3.1.5';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -17997,8 +18012,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
