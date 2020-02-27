@@ -1,20 +1,20 @@
 <template>
     <div>
         <br>
-        <img src="/img/liberal-board-min.png" height="40%" width="40%" style="margin-top: -8%">
+        <img src="/img/liberal-board-min (2).jpg" height="40%" width="40%">
         <br>
-        <img src="/img/facist-board-min.png" height="40%" width="40%" style="margin-top: -15%">
+        <img src="/img/facist-board-min (2).jpg" height="40%" width="40%" >
         <br>
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; padding-left: 0px">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
-        <img src="/img/liberal-membership-card-min.png" height="10%" width="10%" style="margin-top: -15%; margin-left: -4%">
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+        <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
     </div>
     </template>
 

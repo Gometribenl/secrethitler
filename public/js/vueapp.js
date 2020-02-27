@@ -729,9 +729,8 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-8%" },
         attrs: {
-          src: "/img/liberal-board-min.png",
+          src: "/img/liberal-board-min (2).jpg",
           height: "40%",
           width: "40%"
         }
@@ -740,99 +739,92 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%" },
-        attrs: { src: "/img/facist-board-min.png", height: "40%", width: "40%" }
+        attrs: {
+          src: "/img/facist-board-min (2).jpg",
+          height: "40%",
+          width: "40%"
+        }
       }),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "padding-left": "0px" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       }),
       _vm._v(" "),
       _c("img", {
-        staticStyle: { "margin-top": "-15%", "margin-left": "-4%" },
         attrs: {
-          src: "/img/liberal-membership-card-min.png",
-          height: "10%",
-          width: "10%"
+          src: "/img/liberal-membership-card-min (2).jpg",
+          height: "7%",
+          width: "7%"
         }
       })
     ])
@@ -16016,15 +16008,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************!*\
   !*** ./resources/js/components/GameRoom.vue ***!
   \**********************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GameRoom_vue_vue_type_template_id_191b4ed8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true& */ "./resources/js/components/GameRoom.vue?vue&type=template&id=191b4ed8&scoped=true&");
 /* harmony import */ var _GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GameRoom.vue?vue&type=script&lang=js& */ "./resources/js/components/GameRoom.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _GameRoom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -16054,7 +16045,7 @@ component.options.__file = "resources/js/components/GameRoom.vue"
 /*!***********************************************************************!*\
   !*** ./resources/js/components/GameRoom.vue?vue&type=script&lang=js& ***!
   \***********************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
