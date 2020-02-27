@@ -2252,7 +2252,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.5
+  * vue-router v3.1.6
   * (c) 2020 Evan You
   * @license MIT
   */
@@ -3195,7 +3195,8 @@ function fillParams (
       (regexpCompileCache[path] = pathToRegexp_1.compile(path));
 
     // Fix #2505 resolving asterisk routes { name: 'not-found', params: { pathMatch: '/not-found' }}
-    if (params.pathMatch) { params[0] = params.pathMatch; }
+    // and fix #3106 so that you can work with location descriptor object having params.pathMatch equal to empty string
+    if (typeof params.pathMatch === 'string') { params[0] = params.pathMatch; }
 
     return filler(params, { pretty: true })
   } catch (e) {
@@ -3943,7 +3944,10 @@ function setupScroll () {
   // location.host contains the port and location.hostname doesn't
   var protocolAndPath = window.location.protocol + '//' + window.location.host;
   var absolutePath = window.location.href.replace(protocolAndPath, '');
-  window.history.replaceState({ key: getStateKey() }, '', absolutePath);
+  // preserve existing history state as it could be overriden by the user
+  var stateCopy = extend({}, window.history.state);
+  stateCopy.key = getStateKey();
+  window.history.replaceState(stateCopy, '', absolutePath);
   window.addEventListener('popstate', function (e) {
     saveScrollPosition();
     if (e.state && e.state.key) {
@@ -5158,7 +5162,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.5';
+VueRouter.version = '3.1.6';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -17860,21 +17864,21 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     name: 'welcome',
     component: _components_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"],
     props: {
-      title: "This is the SPA home"
+      title: "welcome"
     }
   }, {
     path: '/info',
     name: 'info',
     component: _components_InfoPage__WEBPACK_IMPORTED_MODULE_4__["default"],
     props: {
-      title: "This is the SPA Second Page"
+      title: "Info"
     }
   }, {
     path: '/room',
     name: 'gameroom',
     component: _components_GameRoom__WEBPACK_IMPORTED_MODULE_5__["default"],
     props: {
-      title: "This is the game room"
+      title: "game room"
     }
   }, {
     path: '/modepicker',
