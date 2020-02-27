@@ -126,8 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -246,8 +246,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomButton */ "./resources/js/components/CustomButton.vue");
 //
 //
@@ -17913,8 +17913,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
