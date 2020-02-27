@@ -15,7 +15,9 @@
         <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
         <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
         <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" >
+
     </div>
+
     </template>
 
 <script>

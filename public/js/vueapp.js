@@ -126,8 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -171,6 +171,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -248,8 +250,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
+/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _CustomButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CustomButton */ "./resources/js/components/CustomButton.vue");
 //
 //
