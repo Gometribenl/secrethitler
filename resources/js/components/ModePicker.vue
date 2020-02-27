@@ -31,8 +31,10 @@ div{
 }
 .btnContainer{
     display: inline-block;
-    margin: 10px;
-    top: 50%;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
 }
 .btnWrapper{
     width: 100%;

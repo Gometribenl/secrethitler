@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button>&#8592 Back</button>
+        <button>&#8592; Back</button>
     </div>
 </template>
 
@@ -20,6 +20,6 @@ button{
     height: 50px;
     width: auto;
     font-size: 40px;
-    border: 0;
+    border: none;
 }
 </style>
