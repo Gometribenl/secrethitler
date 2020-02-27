@@ -1,7 +1,12 @@
 <template>
     <div>
-        <div class="logoWrapper">
-
+        <div class="backbtnWrapper">
+            <router-link :to="{ name: 'welcome' }"><BackButton/></router-link>
+        </div>
+        <div class='mainWrapper'>
+            <div class="logoWrapper">
+                <Logo/>
+            </div>
         </div>
         <div class="btnWrapper">
             <div class="btnContainer"><router-link :to="{ name: 'welcome' }"><CustomButton name="public"></CustomButton></router-link></div>
@@ -11,10 +16,12 @@
 </template>
 
 <script>
+import BackButton from './BackButton'
+import Logo from './Logo'
 import Fraktur from 'fraktur.css'
 import CustomButton from "./CustomButton"
     export default {
-        components : { CustomButton }
+        components : { CustomButton, Logo, BackButton }
     }
 </script>
 
@@ -30,5 +37,15 @@ div{
 .btnWrapper{
     width: 100%;
     text-align: center;
+}
+.logoWrapper{
+    text-align: center;
+}
+.mainWrapper{
+    text-align: center;
+}
+.backbtnWrapper{
+    height: 50px;
+    margin: 0;
 }
 </style>
