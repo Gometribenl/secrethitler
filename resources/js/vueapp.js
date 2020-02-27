@@ -18,8 +18,8 @@ const router = new VueRouter({
             props: { title: "This is the SPA home" }
         },
         {
-            path: '/spa-page',
-            name: 'infopage',
+            path: '/info',
+            name: 'info',
             component: InfoPage,
             props: { 
                 title: "This is the SPA Second Page",
