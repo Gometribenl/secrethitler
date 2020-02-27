@@ -11,10 +11,11 @@ import VueChatScroll from 'vue-chat-scroll'
 Vue.use(VueChatScroll)
 
 Vue.component('message-component', require('./components/MessageComponent.vue').default);
+Vue.component('game-room', require('./components/GameRoom.vue').default);
 
 
 const chat = new Vue({
-    el: '#app',
+    el: '#chat',
     data: {
         message: '',
         chat: {
@@ -69,11 +70,11 @@ const chat = new Vue({
             .here((users) => {
                 this.numberOfUsers = users.length;
             })
-            .joining((user) => {
-this.numberOfUsers +=1;
+            .joining(() => {
+                this.numberOfUsers += 1;
             })
-            .leaving((user) => {
-this.numberOfUsers -=1;
+            .leaving(() => {
+                this.numberOfUsers -= 1;
             });
     }
 });
