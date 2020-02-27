@@ -6,9 +6,13 @@
         <main>
             <router-view></router-view>
         </main>
+        <Footer></Footer>
     </div>
 </template>
 
 <script>
-    export default {}
+import Footer from './Footer'
+    export default {
+        components: { Footer } 
+    }
 </script>

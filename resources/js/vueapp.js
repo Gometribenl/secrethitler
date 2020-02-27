@@ -6,7 +6,11 @@ Vue.use(VueRouter)
 import App from './components/App'
 import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
+<<<<<<< HEAD
 import GameRoom from "./components/GameRoom";
+=======
+import ModePicker from './components/ModePicker'
+>>>>>>> 07ddb7f6e014ad41bff1965f5e1ebebd48daa71d
 
 const router = new VueRouter({
     mode: 'history',
@@ -26,6 +30,7 @@ const router = new VueRouter({
             }
         },
         {
+<<<<<<< HEAD
             path: '/room',
             name: 'gameroom',
             component: GameRoom,
@@ -33,8 +38,17 @@ const router = new VueRouter({
                 title: "This is the game room",
             }
         },
+=======
+            path: '/modepicker',
+            name: 'modepicker',
+            component: ModePicker,
+            props: {
+                title: "Game mode picker"
+            }
+        }    
+>>>>>>> 07ddb7f6e014ad41bff1965f5e1ebebd48daa71d
     ],
-})
+});
 const app = new Vue({
     el: '#app',
     components: { App },
