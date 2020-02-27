@@ -22,5 +22,9 @@ button {
     font-family: Fraktur BT, serif;
     font-size: 200%;
     color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: black;
+    border-bottom-color: black
 }
 </style>
