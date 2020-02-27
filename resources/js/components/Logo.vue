@@ -6,8 +6,9 @@
 
 
     export default {
-        props: ['title']
-
+        props: {
+            height : Number,
+        }
     }
 </script>
 
@@ -16,3 +17,4 @@
         height: 350px;
     }
 </style>
+
