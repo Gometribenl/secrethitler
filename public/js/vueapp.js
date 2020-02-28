@@ -105,6 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -647,6 +648,12 @@ var render = function() {
         "router-link",
         { staticClass: "nav-link", attrs: { to: { name: "infopage" } } },
         [_vm._v("Spa-Page")]
+      ),
+      _vm._v(" "),
+      _c(
+        "router-link",
+        { staticClass: "nav-link", attrs: { to: { name: "Chat" } } },
+        [_vm._v("Chat")]
       ),
       _vm._v(" "),
       _c("main", [_c("router-view")], 1)
