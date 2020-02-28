@@ -1,10 +1,8 @@
 <template>
-    <div style="text-align: center"><img src="/img/secrethitler-logo.png" alt="logo"></div>
+    <div style="text-align: center"><img src="/img/secrethitler-logo.png" height="300" alt="logo"></div>
 </template>
 
 <script>
-
-
     export default {
         props: {
             height : Number,
@@ -14,7 +12,8 @@
 
 <style scoped>
     img {
-        height: 350px;
+        height: auto;
+        width: 70%
     }
 </style>
 

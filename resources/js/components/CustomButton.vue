@@ -16,15 +16,14 @@ export default {
 <style scoped>
 button {
     background-color: transparent;
-    border-radius: 12px;
+    border-radius: 6px;
     height: 50px;
     width: 120px;
     font-family: Fraktur BT, serif;
     font-size: 200%;
     color: white;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: black;
-    border-bottom-color: black;
+    border: 0.5px solid;
+    border-color: black;
+    box-shadow: 2px 2px black;
 }
 </style>
