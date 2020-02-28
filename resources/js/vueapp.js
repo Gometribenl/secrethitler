@@ -10,6 +10,7 @@ import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
 import GameRoom from "./components/GameRoom";
 import ModePicker from './components/ModePicker'
+import JoinLobby from './components/JoinLobby'
 
 
 const router = new VueRouter({
@@ -41,6 +42,14 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
+            props: {
+                title: "Game mode picker"
+            }
+        },
+        {
+            path: '/join',
+            name: 'joinlobby',
+            component: JoinLobby,
             props: {
                 title: "Game mode picker"
             }
