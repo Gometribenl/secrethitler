@@ -2027,6 +2027,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['title']
 });
@@ -20863,17 +20892,75 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "button",
+        staticStyle: { margin: "1%" },
+        attrs: { align: "right" }
+      },
+      [
+        _c("router-link", { attrs: { to: { name: "welcome" } } }, [
+          _c(
+            "button",
+            {
+              staticStyle: {
+                "background-color": "black",
+                "border-radius": "12px",
+                height: "50px",
+                width: "120px",
+                "font-family": "Fraktur BT, serif",
+                "font-size": "200%",
+                color: "white",
+                "border-top-color": "transparent",
+                "border-left-color": "transparent",
+                "border-right-color": "black",
+                "border-bottom-color": "black"
+              }
+            },
+            [_vm._v("Home\n           ")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("router-link", { attrs: { to: { name: "info" } } }, [
+          _c(
+            "button",
+            {
+              staticStyle: {
+                "background-color": "black",
+                "border-radius": "12px",
+                height: "50px",
+                width: "120px",
+                "font-family": "Fraktur BT, serif",
+                "font-size": "200%",
+                color: "white",
+                "border-top-color": "transparent",
+                "border-left-color": "transparent",
+                "border-right-color": "black",
+                "border-bottom-color": "black"
+              }
+            },
+            [_vm._v("Info\n           ")]
+          )
+        ])
+      ],
+      1
+    ),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "img" }, [
       _c("br"),
       _vm._v(" "),
       _c("img", {
+        staticStyle: { "padding-left": "2%" },
         attrs: {
           src: "/img/liberal-board-min (2).jpg",
           height: "40%",
@@ -20884,6 +20971,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v(" "),
       _c("img", {
+        staticStyle: { "margin-top": "1%", "padding-left": "2%" },
         attrs: {
           src: "/img/facist-board-min (2).jpg",
           height: "40%",
@@ -20893,85 +20981,101 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: "/img/liberal-membership-card-min (2).jpg",
-          height: "7%",
-          width: "7%"
-        }
-      })
+      _c(
+        "div",
+        { staticClass: "membership", staticStyle: { "margin-top": "1%" } },
+        [
+          _c("img", {
+            staticStyle: { "padding-left": "3%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          }),
+          _vm._v(" "),
+          _c("img", {
+            staticStyle: { "padding-left": "2%" },
+            attrs: {
+              src: "/img/liberal-membership-card-min (2).jpg",
+              height: "7%",
+              width: "7%"
+            }
+          })
+        ]
+      )
     ])
   }
 ]
@@ -37112,8 +37216,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! C:\Users\calvi\Nieuwe map\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
