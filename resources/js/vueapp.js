@@ -16,34 +16,24 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'welcome',
             component: Welcome,
-            props: { title: "welcome" }
         },
         {
             path: '/info',
             name: 'info',
             component: InfoPage,
-            props: {
-                title: "Info",
-            }
         },
         {
             path: '/room',
             name: 'gameroom',
             component: GameRoom,
-            props: {
-                title: "game room",
-            }
         },
         {
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
-            props: {
-                title: "Game mode picker"
-            }
         }
     ],
 });

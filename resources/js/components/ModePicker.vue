@@ -49,6 +49,5 @@ div{
 .backbtnWrapper{
     height: 50px;
     margin: 0;
-    position: absolute;
 }
 </style>
