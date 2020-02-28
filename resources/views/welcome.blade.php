@@ -1,18 +1,24 @@
 <!DOCTYPE html>
+<!-- blade wordt niet meer gebruikt maar inlogggebeuren moet nog overgezet worden naar -->
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        
         <title>Secret Hitler 503</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #F7633D;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -44,8 +50,8 @@
                 text-align: center;
             }
 
-            .title {
-                font-size: 84px;
+            h1 {
+                font-size: 64px;
             }
 
             .links > a {
@@ -64,7 +70,8 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height"> 
+        <!-- <script type="text/javascript" src="js/app.js"></script> -->
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -78,13 +85,14 @@
                     @endauth
                 </div>
             @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Secret Hitler
-                </div>
-
+<!-- 
+            <div id="app">
+            <welcome :title="'startpagina'"></welcome>
             </div>
+
+            <script type="text/javascript" src="js/app.js"></script> -->
+
         </div>
     </body>
 </html>
+
