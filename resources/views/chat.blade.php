@@ -18,8 +18,8 @@
 </head>
 <body>
 <div class="container">
-    <game-room></game-room>
     <div class="row" id="chat">
+    <game-room></game-room>
         <div class="offset-4 col-8">
             <li class="list-group-item">Chat Room <span class="badge badge-pill badge-success">@{{ numberOfUsers }}</span></li>
             <div class="badge border-pill badge-primary">@{{ typing }}</div>
