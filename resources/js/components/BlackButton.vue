@@ -18,5 +18,7 @@
         width: 120px;
         font-size: 200%;
         background: #242322;
+        border-width: 0;
+        border-radius: 6px;
     }
 </style>

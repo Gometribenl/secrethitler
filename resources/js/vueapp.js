@@ -5,11 +5,15 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+
 import App from './components/App'
 import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
 import GameRoom from "./components/GameRoom";
 import ModePicker from './components/ModePicker'
+import Queue from './components/Queue'
+import BootstrapVue from 'bootstrap-vue'
+Vue.use(BootstrapVue)
 
 
 const router = new VueRouter({
@@ -44,6 +48,11 @@ const router = new VueRouter({
             props: {
                 title: "Game mode picker"
             }
+        },
+        {
+            path: '/queue',
+            name: 'Public queue',
+            component: Queue,
         }
     ],
 });
