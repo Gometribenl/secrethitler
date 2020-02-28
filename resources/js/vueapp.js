@@ -5,11 +5,12 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import App from './components/App'
-import Welcome from './components/Welcome'
-import InfoPage from './components/InfoPage'
+import App from './components/App';
+import Welcome from './components/Welcome';
+import InfoPage from './components/InfoPage';
 import GameRoom from "./components/GameRoom";
-import ModePicker from './components/ModePicker'
+import ModePicker from './components/ModePicker';
+import CreateJoin from './components/CreateJoin';
 
 
 const router = new VueRouter({
@@ -34,6 +35,11 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
+        },
+        {
+            path: 'createjoin',
+            name: 'createjoin',
+            component: CreateJoin
         }
     ],
 });
