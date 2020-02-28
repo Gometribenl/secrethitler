@@ -17,26 +17,19 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'welcome',
             component: Welcome,
-            props: { title: "welcome" }
         },
         {
             path: '/info',
             name: 'info',
             component: InfoPage,
-            props: {
-                title: "Info",
-            }
         },
         {
             path: '/room',
             name: 'gameroom',
             component: GameRoom,
-            props: {
-                title: "game room",
-            }
         },
         {
             path: '/modepicker',
@@ -51,7 +44,7 @@ const router = new VueRouter({
             name: 'joinlobby',
             component: JoinLobby,
             props: {
-                title: "Game mode picker"
+                title: "Join a lobby"
             }
         }
     ],

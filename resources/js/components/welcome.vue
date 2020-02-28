@@ -1,7 +1,7 @@
 <template>
     <div>
+        <div class="header"></div>
         <logo height=""></logo>
-
         <div>
             <div class="logoWrapper">
 
@@ -19,7 +19,6 @@
     import CustomButton from "./CustomButton"
 
     export default {
-        props : ['title'],
         components : {Logo, CustomButton}
     }
 </script>
@@ -30,11 +29,16 @@
     }
     .btnContainer{
         display: inline-block;
-        margin: 10px;
-        top: 50%;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 40px;
     }
     .btnWrapper{
         width: 100%;
         text-align: center;
+    }
+    .header{
+        height: 50px;
     }
 </style>
