@@ -14,32 +14,26 @@ import ModePicker from './components/ModePicker'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue)
+import CreateJoin from './components/CreateJoin';
 
 
 const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'welcome',
             component: Welcome,
-            props: { title: "welcome" }
         },
         {
             path: '/info',
             name: 'info',
             component: InfoPage,
-            props: {
-                title: "Info",
-            }
         },
         {
             path: '/room',
             name: 'gameroom',
             component: GameRoom,
-            props: {
-                title: "game room",
-            }
         },
         {
             path: '/modepicker',
@@ -53,6 +47,11 @@ const router = new VueRouter({
             path: '/queue',
             name: 'Public queue',
             component: Queue,
+        },
+        {
+            path: 'createjoin',
+            name: 'createjoin',
+            component: CreateJoin
         }
     ],
 });
