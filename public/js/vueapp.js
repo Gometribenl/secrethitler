@@ -1927,32 +1927,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BackButton.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BackButton.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    Fraktur: fraktur_css__WEBPACK_IMPORTED_MODULE_0___default.a
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomButton.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CustomButton.vue?vue&type=script&lang=js& ***!
@@ -1962,15 +1936,12 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! fraktur.css */ "./node_modules/fraktur.css/index.css");
-/* harmony import */ var fraktur_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(fraktur_css__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
 //
 //
 //
-
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     name: String
@@ -2191,7 +2162,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-23a91724]{\r\n    font-family: Fraktur BT, serif;\r\n    color: white;\r\n    background: transparent;\r\n    height: 50px;\r\n    width: auto;\r\n    font-size: 40px;\r\n    border: none;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-23a91724]{\n    background: transparent;\n    height: 50px;\n    width: auto;\n    font-size: 30px;\n    border: none;\n}\n", ""]);
 
 // exports
 
@@ -2210,7 +2181,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-edd77f24] {\r\n    background-color: transparent;\r\n    border-radius: 6px;\r\n    height: 50px;\r\n    width: 120px;\r\n    font-family: Fraktur BT, serif;\r\n    font-size: 200%;\r\n    color: white;\r\n    border: 0.5px solid;\r\n    border-color: black;\r\n    box-shadow: 2px 2px black;\n}\r\n", ""]);
+exports.push([module.i, "\nbutton[data-v-edd77f24] {\n    background-color: transparent;\n    border-radius: 6px;\n    height: 50px;\n    width: 120px;\n    font-size: 200%;\n    border: 0.5px solid;\n    border-color: black;\n    box-shadow: 2px 2px black;\n}\n", ""]);
 
 // exports
 
@@ -2229,7 +2200,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.footer[data-v-61a7c374] {\r\n   position: fixed;\r\n   left: 0;\r\n   bottom: 0;\r\n   width: 100%;\r\n   color: white;\r\n   text-align: center;\r\n   font-family: sans-serif;\r\n   font-size: 14px;\n}\r\n", ""]);
+exports.push([module.i, "\n.footer[data-v-61a7c374] {\n   position: fixed;\n   left: 0;\n   bottom: 0;\n   width: 100%;\n   text-align: center;\n   font-size: 14px;\n}\n", ""]);
 
 // exports
 
@@ -2267,7 +2238,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-039b643c]{\r\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-039b643c]{\r\n    display: inline-block;\r\n    text-align: center;\r\n    margin-right: 10%;\r\n    margin-left: 10%;\r\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-039b643c]{\r\n    width: 100%;\r\n    text-align: center;\n}\n.logoWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.mainWrapper[data-v-039b643c]{\r\n    text-align: center;\n}\n.backbtnWrapper[data-v-039b643c]{\r\n    height: 50px;\r\n    margin: 0;\n}\r\n", ""]);
+exports.push([module.i, "\n.btnContainer[data-v-039b643c]{\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-039b643c]{\n    width: 100%;\n    text-align: center;\n}\n.logoWrapper[data-v-039b643c]{\n    text-align: center;\n}\n.mainWrapper[data-v-039b643c]{\n    text-align: center;\n}\n.backbtnWrapper[data-v-039b643c]{\n    height: 50px;\n    margin: 0;\n}\n", ""]);
 
 // exports
 
@@ -2286,7 +2257,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-51777872]{\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-51777872]{\n    display: inline-block;\n    margin: 10px;\n    top: 50%;\n}\n.btnWrapper[data-v-51777872]{\n    width: 100%;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "\n.btnContainer[data-v-51777872]{\n    display: inline-block;\n    margin: 10px;\n    top: 50%;\n}\n.btnWrapper[data-v-51777872]{\n    width: 100%;\n    text-align: center;\n}\n", ""]);
 
 // exports
 
@@ -20782,7 +20753,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("button", [_vm._v("← Back")])])
+    return _c("div", [_c("button", [_vm._v("← BACK")])])
   }
 ]
 render._withStripped = true
@@ -36300,14 +36271,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!*****************************************!*\
   !*** ./resources/js/components/App.vue ***!
   \*****************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App_vue_vue_type_template_id_332fccf4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=332fccf4& */ "./resources/js/components/App.vue?vue&type=template&id=332fccf4&");
 /* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ "./resources/js/components/App.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -36337,7 +36309,7 @@ component.options.__file = "resources/js/components/App.vue"
 /*!******************************************************************!*\
   !*** ./resources/js/components/App.vue?vue&type=script&lang=js& ***!
   \******************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36375,19 +36347,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BackButton_vue_vue_type_template_id_23a91724_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BackButton.vue?vue&type=template&id=23a91724&scoped=true& */ "./resources/js/components/BackButton.vue?vue&type=template&id=23a91724&scoped=true&");
-/* harmony import */ var _BackButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BackButton.vue?vue&type=script&lang=js& */ "./resources/js/components/BackButton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _BackButton_vue_vue_type_style_index_0_id_23a91724_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BackButton.vue?vue&type=style&index=0&id=23a91724&scoped=true&lang=css& */ "./resources/js/components/BackButton.vue?vue&type=style&index=0&id=23a91724&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _BackButton_vue_vue_type_style_index_0_id_23a91724_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BackButton.vue?vue&type=style&index=0&id=23a91724&scoped=true&lang=css& */ "./resources/js/components/BackButton.vue?vue&type=style&index=0&id=23a91724&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-
-
+var script = {}
 
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _BackButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  script,
   _BackButton_vue_vue_type_template_id_23a91724_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _BackButton_vue_vue_type_template_id_23a91724_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -36401,20 +36371,6 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/BackButton.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/BackButton.vue?vue&type=script&lang=js&":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/BackButton.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BackButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./BackButton.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BackButton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BackButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -37112,8 +37068,8 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\js\vueapp.js */"./resources/js/vueapp.js");
-module.exports = __webpack_require__(/*! D:\PhpstormProjects\secrethitler503\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/kayjoosten/Documents/Landstede/Secret-Hitler/resources/js/vueapp.js */"./resources/js/vueapp.js");
+module.exports = __webpack_require__(/*! /Users/kayjoosten/Documents/Landstede/Secret-Hitler/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
