@@ -6,9 +6,12 @@
             <div class="logoWrapper">
 
             </div>
+            <div class="" style="text-align: center;">
+                <input type="text;" style="border-radius: 5px" placeholder="Game key">
+            </div>
             <div class="btnWrapper">
-                <div class="btnContainer"><router-link :to="{ name: 'Queue' }"><CustomButton name="join"></CustomButton></router-link></div>
-                <div class="btnContainer"><router-link :to="{ name: 'Cancel' }"><CustomButton name="cancel"></CustomButton></router-link></div>
+                <div class="btnContainer"><router-link :to="{ name: 'Queue' }"><BlackButton name="join"></BlackButton></router-link></div>
+                <div class="btnContainer"><router-link :to="{ name: 'Cancel' }"><BlackButton name="cancel"></BlackButton></router-link></div>
             </div>
         </div>
     </div>
@@ -16,10 +19,10 @@
 
 <script>
     import Logo from "./Logo"
-    import CustomButton from "./CustomButton"
+    import BlackButton from "./BlackButton"
 
     export default {
-        components : {Logo, CustomButton}
+        components : {Logo, BlackButton}
     }
 </script>
 
