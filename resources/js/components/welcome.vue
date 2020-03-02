@@ -24,9 +24,7 @@
 </script>
 
 <style scoped>
-    div{
-        font-family: Fraktur BT, serif;
-    }
+
     .btnContainer{
         display: inline-block;
         text-align: center;
