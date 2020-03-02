@@ -2149,6 +2149,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -38520,7 +38529,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-4c801cf1]{\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-4c801cf1]{\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-4c801cf1]{\n    width: 100%;\n    text-align: center;\n}\n.header[data-v-4c801cf1]{\n    height: 50px;\n}\n", ""]);
+exports.push([module.i, "\ndiv[data-v-4c801cf1] {\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-4c801cf1] {\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-4c801cf1] {\n    width: 100%;\n    text-align: center;\n}\n.header[data-v-4c801cf1] {\n    height: 50px;\n}\ninput[type=text][data-v-4c801cf1] {\n    background-color: #FBA38D;\n    color: #F4C7A8;\n    border-radius: 5px;\n    border-color: #F4C7A8;\n    border-style: solid;\n}\n[data-v-4c801cf1]::-webkit-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-moz-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]:-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n", ""]);
 
 // exports
 
@@ -60858,6 +60867,8 @@ var render = function() {
         _vm._v(" "),
         _vm._m(0),
         _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
         _c("div", { staticClass: "btnWrapper" }, [
           _c(
             "div",
@@ -60899,8 +60910,8 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticStyle: { "text-align": "center" } }, [
       _c("input", {
-        staticStyle: { "border-radius": "5px" },
-        attrs: { type: "text;", placeholder: "Game key" }
+        staticStyle: { height: "44px", width: "11vw" },
+        attrs: { type: "text", placeholder: "Game key" }
       })
     ])
   }
