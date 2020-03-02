@@ -39,9 +39,6 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
-            props: {
-                title: "Game mode picker"
-            }
         },
         {
             path: '/queue',
