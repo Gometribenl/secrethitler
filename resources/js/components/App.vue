@@ -10,6 +10,6 @@
 <script>
 import Footer from './Footer'
     export default {
-        components: { Footer } 
+        components: { Footer }
     }
 </script>

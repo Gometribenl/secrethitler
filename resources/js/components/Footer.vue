@@ -14,9 +14,7 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   color: white;
    text-align: center;
-   font-family: sans-serif;
    font-size: 14px;
 }
 </style>
