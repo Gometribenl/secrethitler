@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('chat','ChatController@chat');
+Route::get('gameroom','ChatController@chat');
 Route::post('send','ChatController@send');
 
 Auth::routes();
