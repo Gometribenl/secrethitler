@@ -1,15 +1,30 @@
 <template>   
     <div>
-        <h1>{{title}}</h1>
+        <div class="header">
+            <Header/>
+        </div>
+        <div class='titelContainer'>
+            <h1>Spel regels</h1>
+        </div>
+        <div class='tekstContainer'>
+            <SpelregelsTxt/>
+        </div>
     </div>
 </template>
 
 <script>
+import SpelregelsTxt from './SpelregelsTxt'
+import Header from './Header'
     export default {
-        props : ['title']
+        components: { Header, SpelregelsTxt }
     }
 </script>
 
 <style scoped>
-
+.textContainer{
+    width: 100px;
+}
+.titelContainer{
+    text-align: center;
+}
 </style>
