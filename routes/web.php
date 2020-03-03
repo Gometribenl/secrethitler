@@ -14,6 +14,11 @@ Auth::routes();
 
 Route::get('/login', 'HomeController@index');
 
+Route::get('gameroom','ChatController@chat');
+Route::post('send','ChatController@send');
+
+Auth::routes();
+
 Route::get('/{any}', function(){
     return view('vueapp');
 })->where('any', '.*');
