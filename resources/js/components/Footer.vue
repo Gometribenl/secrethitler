@@ -5,7 +5,8 @@
 </template>
 
 <script>
-    export default {}
+    export default {
+    }
 </script>
 
 <style scoped>
@@ -16,5 +17,8 @@
    width: 100%;
    text-align: center;
    font-size: 14px;
+}
+.staticfooter{
+    position: static;
 }
 </style>
