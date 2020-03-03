@@ -21,10 +21,7 @@
         "sass": "^1.20.1",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
-<<<<<<< HEAD
-=======
         "vue-router": "^3.1.6",
->>>>>>> 71eb838a205b862e375b9981a1ab04a51c6970d2
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
