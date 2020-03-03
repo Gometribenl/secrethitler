@@ -155,3 +155,5 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/osx,vuejs,linux,laravel,windows,phpstorm
 composer.phar
 /vendor/
+package-lock.json
+composer.lock
