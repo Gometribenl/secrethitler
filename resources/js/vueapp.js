@@ -10,7 +10,6 @@ Vue.use(VueRouter)
 Vue.use(VueChatScroll)
 Vue.use(BootstrapVue)
 
-
 import App from './components/App'
 import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
@@ -27,8 +26,8 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            name: 'login',
-            component: Login,
+            name: 'welcome',
+            component: Welcome,
         },
         {
             path: '/info',
@@ -69,6 +68,7 @@ const router = new VueRouter({
         }
     ],
 });
+
 const app = new Vue({
     el: '#app',
     components: { App },
