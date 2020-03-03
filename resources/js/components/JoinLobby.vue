@@ -1,12 +1,15 @@
 <template>
     <div>
         <div class="header"></div>
-        <logo></logo>
+        <div style="text-align: center; display: block; margin-left: auto; margin-right: auto; width: 50%">
+            <logo></logo>
+        </div>
         <div>
             <div class="logoWrapper">
 
             </div>
-            <div class="" style="text-align: center;">
+
+            <div class="" style="text-align: center; padding-top: 10%">
                 <input type="text" placeholder="Game key" style="height: 44px; width: 11vw">
             </div>
             <br>
@@ -33,6 +36,7 @@
     export default {
         components: {Logo, BlackButton}
     }
+
 </script>
 
 <style scoped>
@@ -71,5 +75,4 @@
         text-align: center;
         font-size: 22px;
     }
-
 </style>
