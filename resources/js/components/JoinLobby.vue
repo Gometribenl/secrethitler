@@ -63,6 +63,7 @@
         border-radius: 5px;
         border-color: #F4C7A8;
         border-style: solid;
+        text-align: center;
     }
 
     ::placeholder {
@@ -70,4 +71,5 @@
         text-align: center;
         font-size: 22px;
     }
+
 </style>

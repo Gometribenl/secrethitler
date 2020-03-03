@@ -38529,7 +38529,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-4c801cf1] {\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-4c801cf1] {\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-4c801cf1] {\n    width: 100%;\n    text-align: center;\n}\n.header[data-v-4c801cf1] {\n    height: 50px;\n}\ninput[type=text][data-v-4c801cf1] {\n    background-color: #FBA38D;\n    color: #F4C7A8;\n    border-radius: 5px;\n    border-color: #F4C7A8;\n    border-style: solid;\n}\n[data-v-4c801cf1]::-webkit-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-moz-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]:-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n", ""]);
+exports.push([module.i, "\ndiv[data-v-4c801cf1] {\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-4c801cf1] {\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-4c801cf1] {\n    width: 100%;\n    text-align: center;\n}\n.header[data-v-4c801cf1] {\n    height: 50px;\n}\ninput[type=text][data-v-4c801cf1] {\n    background-color: #FBA38D;\n    color: #F4C7A8;\n    border-radius: 5px;\n    border-color: #F4C7A8;\n    border-style: solid;\n    text-align: center;\n}\n[data-v-4c801cf1]::-webkit-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-moz-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]:-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-4c801cf1]::placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n\n", ""]);
 
 // exports
 
@@ -77326,7 +77326,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ModePicker__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/ModePicker */ "./resources/js/components/ModePicker.vue");
 /* harmony import */ var _components_JoinLobby__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/JoinLobby */ "./resources/js/components/JoinLobby.vue");
 /* harmony import */ var _components_Queue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Queue */ "./resources/js/components/Queue.vue");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var _components_CreateJoin__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/CreateJoin */ "./resources/js/components/CreateJoin.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
@@ -77341,7 +77341,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_11__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_9__["default"]);
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
