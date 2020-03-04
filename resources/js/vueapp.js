@@ -15,9 +15,11 @@ import Welcome from './components/Welcome'
 import InfoPage from './components/InfoPage'
 import GameRoom from "./components/GameRoom";
 import ModePicker from './components/ModePicker'
+import JoinLobby from './components/JoinLobby'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
 import CreateJoin from './components/CreateJoin';
+
 
 const router = new VueRouter({
     mode: 'history',
@@ -41,6 +43,18 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
+            props: {
+                title: "Game mode picker"
+            }
+        },
+        {
+            path: '/join',
+            name: 'joinlobby',
+            component: JoinLobby,
+            props: {
+                title: "Join a lobby"
+            }
+
         },
         {
             path: '/queue',
