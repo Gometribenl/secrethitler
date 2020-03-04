@@ -86380,7 +86380,7 @@ var render = function() {
       _c("div", { staticClass: "btnWrapper" }, [
         _c(
           "div",
-          { staticClass: "btnContainer" },
+          { staticClass: "btnContainer", staticStyle: { margin: "auto" } },
           [
             _c(
               "router-link",
@@ -86394,7 +86394,7 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "btnContainer" },
+          { staticClass: "btnContainer", staticStyle: { margin: "auto" } },
           [
             _c(
               "router-link",

@@ -14,12 +14,12 @@
             </div>
             <br>
             <div class="btnWrapper">
-                <div class="btnContainer">
+                <div class="btnContainer" style="margin: auto;">
                     <router-link :to="{ name: 'Queue' }">
                         <BlackButton name="join"></BlackButton>
                     </router-link>
                 </div>
-                <div class="btnContainer">
+                <div class="btnContainer" style="margin: auto;">
                     <router-link :to="{ name: 'Cancel' }">
                         <BlackButton name="cancel"></BlackButton>
                     </router-link>
