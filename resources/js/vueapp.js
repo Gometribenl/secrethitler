@@ -19,7 +19,11 @@ import JoinLobby from './components/JoinLobby'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
 import CreateJoin from './components/CreateJoin';
+
 import CreatePrivateGame from "./components/CreatePrivateGame";
+
+import Chat from './components/Chat';
+
 
 const router = new VueRouter({
     mode: 'history',
@@ -64,12 +68,21 @@ const router = new VueRouter({
         {
             path: 'createjoin',
             name: 'createjoin',
+
             component: CreateJoin,
         },
         {
             path: '/createprivategame',
             name: 'createprivategame',
             component: CreatePrivateGame,
+
+            component: CreateJoin
+        },
+        {
+            path: '/chat',
+            name: 'chat',
+            component: Chat
+
         }
     ],
 });
@@ -78,6 +91,7 @@ const app = new Vue({
     el: '#app',
     components: { App },
     router,
+
 });
 
 Vue.component('message-component', require('./components/MessageComponent.vue').default);
@@ -126,3 +140,5 @@ const chat = new Vue({
             });
     }
 });
+
+
