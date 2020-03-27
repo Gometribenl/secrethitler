@@ -1992,6 +1992,62 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Logo */ "./resources/js/components/Logo.vue");
+/* harmony import */ var _BlackButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BlackButton */ "./resources/js/components/BlackButton.vue");
+/* harmony import */ var _RandomKey__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RandomKey */ "./resources/js/components/RandomKey.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Logo: _Logo__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BlackButton: _BlackButton__WEBPACK_IMPORTED_MODULE_1__["default"],
+    RandomKey: _RandomKey__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomButton.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CustomButton.vue?vue&type=script&lang=js& ***!
@@ -45073,7 +45129,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.btnContainer[data-v-6f122df1]{\r\n    display: inline-block;\r\n    text-align: center;\r\n    margin-right: 10%;\r\n    margin-left: 10%;\r\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-6f122df1]{\r\n    width: 100%;\r\n    text-align: center;\n}\n.logoWrapper[data-v-6f122df1]{\r\n    text-align: center;\n}\n.mainWrapper[data-v-6f122df1]{\r\n    text-align: center;\n}\n.backbtnWrapper[data-v-6f122df1]{\r\n    height: 50px;\r\n    margin: 0;\n}\r\n", ""]);
+exports.push([module.i, "\n.btnContainer[data-v-6f122df1]{\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-6f122df1]{\n    width: 100%;\n    text-align: center;\n}\n.logoWrapper[data-v-6f122df1]{\n    text-align: center;\n}\n.mainWrapper[data-v-6f122df1]{\n    text-align: center;\n}\n.backbtnWrapper[data-v-6f122df1]{\n    height: 50px;\n    margin: 0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\ndiv[data-v-520ca61e] {\n    font-family: Fraktur BT, serif;\n}\n.btnContainer[data-v-520ca61e] {\n    display: inline-block;\n    text-align: center;\n    margin-right: 10%;\n    margin-left: 10%;\n    margin-bottom: 40px;\n}\n.btnWrapper[data-v-520ca61e] {\n    width: 100%;\n    text-align: center;\n}\n.header[data-v-520ca61e] {\n    height: 50px;\n}\ninput[type=text][data-v-520ca61e] {\n    background-color: #FBA38D;\n    color: #F4C7A8;\n    border-radius: 5px;\n    border-color: #F4C7A8;\n    border-style: solid;\n    text-align: center;\n}\n[data-v-520ca61e]::-webkit-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-520ca61e]::-moz-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-520ca61e]:-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-520ca61e]::-ms-input-placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n[data-v-520ca61e]::placeholder {\n    color: #F4C7A8;\n    text-align: center;\n    font-size: 22px;\n}\n", ""]);
 
 // exports
 
@@ -84824,6 +84899,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CustomButton.vue?vue&type=style&index=0&id=edd77f24&scoped=true&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CustomButton.vue?vue&type=style&index=0&id=edd77f24&scoped=true&lang=css& ***!
@@ -85927,6 +86032,96 @@ var render = function() {
         ],
         1
       )
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "header" }),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticStyle: {
+          "text-align": "center",
+          display: "block",
+          "margin-left": "auto",
+          "margin-right": "auto",
+          width: "50%"
+        }
+      },
+      [_c("logo")],
+      1
+    ),
+    _vm._v(" "),
+    _c("div", [
+      _c("div", { staticClass: "logoWrapper" }),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "key" },
+        [
+          _c("h1", { staticStyle: { "text-align": "center" } }, [
+            _vm._v("Game key")
+          ]),
+          _vm._v(" "),
+          _c("RandomKey")
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("div", { staticClass: "btnWrapper" }, [
+        _c(
+          "div",
+          { staticClass: "btnContainer", staticStyle: { margin: "auto" } },
+          [
+            _c(
+              "router-link",
+              { attrs: { to: { name: "Start" } } },
+              [_c("BlackButton", { attrs: { name: "start" } })],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "btnContainer", staticStyle: { margin: "auto" } },
+          [
+            _c(
+              "router-link",
+              { attrs: { to: { name: "Cancel" } } },
+              [_c("BlackButton", { attrs: { name: "cancel" } })],
+              1
+            )
+          ],
+          1
+        )
+      ])
     ])
   ])
 }
@@ -102294,6 +102489,93 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/CreatePrivateGame.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/CreatePrivateGame.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true& */ "./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true&");
+/* harmony import */ var _CreatePrivateGame_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreatePrivateGame.vue?vue&type=script&lang=js& */ "./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& */ "./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _CreatePrivateGame_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "520ca61e",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CreatePrivateGame.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CreatePrivateGame.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=style&index=0&id=520ca61e&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_style_index_0_id_520ca61e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CreatePrivateGame.vue?vue&type=template&id=520ca61e&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrivateGame_vue_vue_type_template_id_520ca61e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/CustomButton.vue":
 /*!**************************************************!*\
   !*** ./resources/js/components/CustomButton.vue ***!
@@ -103179,6 +103461,38 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/RandomKey.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/RandomKey.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/js/components/RandomKey.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/SpelregelsTxt.vue":
 /*!***************************************************!*\
   !*** ./resources/js/components/SpelregelsTxt.vue ***!
@@ -103360,6 +103674,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Queue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Queue */ "./resources/js/components/Queue.vue");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var _components_CreateJoin__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/CreateJoin */ "./resources/js/components/CreateJoin.vue");
+/* harmony import */ var _components_CreatePrivateGame__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/CreatePrivateGame */ "./resources/js/components/CreatePrivateGame.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -103369,6 +103684,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_chat_scroll__WEBPACK_IMPORTED_MODULE_2___default.a);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_10__["default"]);
+
 
 
 
@@ -103414,6 +103730,10 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
     path: 'createjoin',
     name: 'createjoin',
     component: _components_CreateJoin__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }, {
+    path: '/createprivategame',
+    name: 'createprivategame',
+    component: _components_CreatePrivateGame__WEBPACK_IMPORTED_MODULE_12__["default"]
   }]
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({

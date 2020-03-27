@@ -19,7 +19,7 @@ import JoinLobby from './components/JoinLobby'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
 import CreateJoin from './components/CreateJoin';
-
+import CreatePrivateGame from "./components/CreatePrivateGame";
 
 const router = new VueRouter({
     mode: 'history',
@@ -64,7 +64,12 @@ const router = new VueRouter({
         {
             path: 'createjoin',
             name: 'createjoin',
-            component: CreateJoin
+            component: CreateJoin,
+        },
+        {
+            path: '/createprivategame',
+            name: 'createprivategame',
+            component: CreatePrivateGame,
         }
     ],
 });
