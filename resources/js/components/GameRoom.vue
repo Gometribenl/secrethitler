@@ -44,7 +44,7 @@ export default {
   },
   created() {
     socket.on(
-      "start voting",
+      "stop voting",
       function() {
         this.showVoter = false;
       }.bind(this)
