@@ -1,49 +1,27 @@
 <template>
-  <div class="col-12">
-    <div class="row col-12">
-      <div class="col-8">
-        <div class="col-12">
-          <img class="game-board-img" src="/img/liberal-board-min (2).jpg" />
+  <div>
+    <Header />
+    <div class="col-12">
+      <div class="row col-12">
+        <div class="col-8">
+          <div class="col-12">
+            <img class="game-board-img" src="/img/liberal-board-min (2).jpg" />
+          </div>
+          <div class="col-12">
+            <img class="game-board-img" src="/img/facist-board-min (2).jpg" />
+          </div>
         </div>
-        <div class="col-12">
-          <img class="game-board-img" src="/img/facist-board-min (2).jpg" />
+        <div class="col-4">
+          <Chat />
         </div>
       </div>
-      <div class="col-4">
-        <Chat />
+      <div class="voting">
+        <button v-on:click="startVoting">startVoting</button>
+        <!-- degene waar op gestemd gaat worden moet hieronder worden meegegeven -->
+        <Voter v-if="showVoter" v-on:messageFromChild="votingResult" username="Richard" />
+        <button v-on:click="stopVoting">stopVoting</button>
       </div>
-    </div>
-    <div class="cards row">
-      <div class="offset-1 col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
-      <div class="col-1">
-        <img class="lib-card" src="/img/liberal-membership-card.png" />
-      </div>
+      <PlayerCards />
     </div>
   </div>
 </template>
@@ -53,13 +31,49 @@ window.io = require("socket.io-client");
 let socket = io("http://localhost:3000");
 
 import Chat from "./Chat";
+import Header from "./Header";
+import Voter from "./Voter";
+import PlayerCards from "./PlayerCards";
 
 export default {
-  components: { Chat }
+  components: { Chat, Header, Voter, PlayerCards },
+  data() {
+    return {
+      showVoter: false
+    };
+  },
+  created() {
+    socket.on(
+      "start voting",
+      function() {
+        this.showVoter = false;
+      }.bind(this)
+    );
+    socket.on(
+      "start voting",
+      function() {
+        this.showVoter = true;
+      }.bind(this)
+    );
+  },
+  methods: {
+    startVoting() {
+      socket.emit("start voting");
+    },
+    stopVoting() {
+      socket.emit("stop voting");
+    },
+    votingResult(result) {
+      this.result = result;
+    }
+  }
 };
 </script>
 
 <style scoped>
+.voting {
+  text-align: center;
+}
 .list-group {
   overflow-y: hidden;
   height: 50vh;
@@ -69,24 +83,11 @@ export default {
   border-right: solid #be6664 3px;
 }
 
-.chat {
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
 .game-board-img {
   width: 75%;
   height: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
-}
-
-.lib-card {
-  max-width: 100%;
-  height: auto;
-}
-.cards {
-  padding-top: 2%;
 }
 
 .chat-text {
