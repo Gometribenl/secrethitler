@@ -41,8 +41,9 @@
             <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
             </div>
             </div>
-
+        <div>Room name: {{ $route.params.room }}</div>
     </div>
+
 
 
 </template>
