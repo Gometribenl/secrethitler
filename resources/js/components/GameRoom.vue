@@ -1,59 +1,114 @@
 <template>
-    <div>
-        <div class="button" align="right" style="margin: 1%">
-            <router-link :to="{ name: 'welcome' }"><button style="background-color: black;   border-radius: 12px; height: 50px; width: 120px;
- font-family: Fraktur BT, serif;
-    font-size: 200%;
-    color: white;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: black;
-    border-bottom-color: black">Home
-            </button></router-link>
-            <router-link :to="{ name: 'info' }"><button style="background-color: black;   border-radius: 12px;
-    height: 50px;
-    width: 120px;
-    font-family: Fraktur BT, serif;
-    font-size: 200%;
-    color: white;
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: black;
-    border-bottom-color: black">Info
-            </button></router-link>
+  <div>
+    <Header />
+    <div class="col-12">
+      <div class="row col-12">
+        <div class="col-8">
+          <div class="col-12">
+            <img class="game-board-img" src="/img/liberal-board-min (2).jpg" />
+          </div>
+          <div class="col-12">
+            <img class="game-board-img" src="/img/facist-board-min (2).jpg" />
+          </div>
         </div>
-        <div class="img">
-            <br>
-            <img src="/img/liberal-board-min (2).jpg" height="40%" width="40%" style="padding-left: 2%">
-            <br>
-            <img src="/img/facist-board-min (2).jpg" height="40%" width="40%" style="margin-top: 1%; padding-left: 2%">
-            <br>
-            <div class="membership" style="margin-top: 1%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 3%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            <img src="/img/liberal-membership-card-min (2).jpg" height="7%" width="7%" style="padding-left: 2%">
-            </div>
-            </div>
-        <div>Room name: {{ $route.params.room }}</div>
+        <div class="col-4">
+          <Chat />
+        </div>
+      </div>
+      <div class="voting">
+        <button v-on:click="startVoting">startVoting</button>
+        <!-- degene waar op gestemd gaat worden moet hieronder worden meegegeven -->
+        <Voter v-if="showVoter" v-on:messageFromChild="votingResult" username="Richard" />
+        <button v-on:click="stopVoting">stopVoting</button>
+      </div>
+      <PlayerCards />
     </div>
-
-
-
+  </div>
 </template>
 
 <script>
-    export default {
-        props: ['title']
+window.io = require("socket.io-client");
+let socket = io("http://localhost:3000");
+
+import Chat from "./Chat";
+import Header from "./Header";
+import Voter from "./Voter";
+import PlayerCards from "./PlayerCards";
+
+export default {
+  components: { Chat, Header, Voter, PlayerCards },
+  data() {
+    return {
+      showVoter: false
+    };
+  },
+  created() {
+    socket.on(
+      "stop voting",
+      function() {
+        this.showVoter = false;
+      }.bind(this)
+    );
+    socket.on(
+      "start voting",
+      function() {
+        this.showVoter = true;
+      }.bind(this)
+    );
+  },
+  methods: {
+    startVoting() {
+      socket.emit("start voting");
+    },
+    stopVoting() {
+      socket.emit("stop voting");
+    },
+    votingResult(result) {
+      this.result = result;
     }
+  }
+};
 </script>
 
 <style scoped>
-</style>
+.voting {
+  text-align: center;
+}
+.list-group {
+  overflow-y: hidden;
+  height: 50vh;
+  border-radius: 16px 16px 0 0;
+  border-top: solid #be6664 3px;
+  border-left: solid #be6664 3px;
+  border-right: solid #be6664 3px;
+}
 
+.game-board-img {
+  width: 75%;
+  height: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.chat-text {
+  margin-left: 10px;
+  font-family: "Odibee Sans", serif;
+  font-size: 20px;
+}
+
+.chat-text:first-child {
+  margin-top: 10px;
+}
+
+.chat-color {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #363636;
+}
+
+.form-control {
+  border-radius: 0 0 16px 16px;
+  border-bottom: solid #be6664 3px;
+  border-left: solid #be6664 3px;
+  border-right: solid #be6664 3px;
+}
+</style>

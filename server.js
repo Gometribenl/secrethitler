@@ -2,12 +2,6 @@ const app = require('express')();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
-// app.get('/', function(req, res){
-//   res.sendFile(__dirname + '/index.html');
-// });
-
-
-
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
@@ -37,5 +31,20 @@ nsp.on('connection', function(socket){
         console.log("joined room")
     });
 // .nsp.emit('create-room', socket.client.conn.server.clientsCount);
-});
 
+    socket.on('vote yes', function(){
+     nsp.emit('vote yes');
+     });
+
+    socket.on('vote no', function(){
+        nsp.emit('vote no');
+    });
+    socket.on('start voting', function(){
+        nsp.emit('start voting');
+    });
+
+    socket.on('stop voting', function(){
+        nsp.emit('stop voting');
+    });
+
+});

@@ -1,57 +1,17 @@
 <template>
-    <div class="col-12">
-        <div class="row col-12" id="chat">
-            <div class="col-8">
-                <div class="col-12">
-                    <img class="game-board-img" src="/img/liberal-board-min (2).jpg">
-                </div>
-                <div class="col-12">
-                    <img class="game-board-img" src="/img/facist-board-min (2).jpg">
-                </div>
-            </div>
-            <div class="chat col-4">
-                <ul id="messages" class="list-group chat-color" v-chat-scroll>
-                    <li v-for="message in messages">{{message}}</li>
-                </ul>
-                    <form v-on:submit="send">
-                        <input type="text" class="form-control" placeholder="Type your text here..."
-                               v-model="message" />
-                    </form>
-            </div>
-        </div>
-        <div class="cards row">
-            <div class="offset-1 col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-            <div class="col-1">
-                <img class="lib-card" src="/img/liberal-membership-card.png">
-            </div>
-        </div>
-    </div>
+  <div>
+    <ul id="messages" class="list-group chat-color" v-chat-scroll>
+      <li v-for="message in messages">{{message}}</li>
+    </ul>
+    <form v-on:submit="send">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Type your text here..."
+        v-model="message"
+      />
+    </form>
+  </div>
 </template>
 
 <script>
@@ -60,7 +20,7 @@ export default {
   data() {
     return {
       messages: [],
-      message: "",
+      message: ""
     };
   },
 
@@ -69,7 +29,8 @@ export default {
         console.log(1);
         this.messages.push(message);
         console.log(this.messages);
-      }.bind(this));
+      }.bind(this)
+    );
   },
 
   methods: {
@@ -78,9 +39,7 @@ export default {
       e.preventDefault();
       this.message = "";
     }
-  },
-
-
+  }
 };
 </script>
 
