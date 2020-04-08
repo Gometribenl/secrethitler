@@ -10,7 +10,7 @@
         </div>
         <div class="btnWrapper">
             <div class="btnContainer"><router-link :to="{ name: 'welcome' }"><CustomButton name="public"></CustomButton></router-link></div>
-            <div class="btnContainer"><router-link :to="{ name: 'createjoin' }"><CustomButton name="private"></CustomButton></router-link></div>
+            <div class="btnContainer"><router-link :to="{ name: 'privateGame' }"><CustomButton name="private"></CustomButton></router-link></div>
         </div>
     </div>
 </template>

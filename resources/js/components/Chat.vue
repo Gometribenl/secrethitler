@@ -15,8 +15,6 @@
 </template>
 
 <script>
-window.io = require("socket.io-client");
-let socket = io("http://localhost:3000");
 
 export default {
   data() {
@@ -27,9 +25,7 @@ export default {
   },
 
   created: function() {
-    socket.on(
-      "chat message",
-      function(message) {
+    chatsocket.on("chat message", function(message) {
         console.log(1);
         this.messages.push(message);
         console.log(this.messages);
@@ -39,7 +35,7 @@ export default {
 
   methods: {
     send: function(e) {
-      socket.emit("chat message", this.message);
+      chatsocket.emit("chat message", this.message);
       e.preventDefault();
       this.message = "";
     }

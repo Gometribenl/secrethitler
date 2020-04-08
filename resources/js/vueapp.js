@@ -6,9 +6,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueChatScroll from 'vue-chat-scroll'
 
-Vue.use(VueRouter)
-Vue.use(VueChatScroll)
-Vue.use(BootstrapVue)
+Vue.use(VueRouter);
+Vue.use(VueChatScroll);
+Vue.use(BootstrapVue);
 
 import App from './components/App'
 import Welcome from './components/Welcome'
@@ -18,8 +18,11 @@ import ModePicker from './components/ModePicker'
 import JoinLobby from './components/JoinLobby'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
-import CreateJoin from './components/CreateJoin';
+import PrivateGame from './components/PrivateGame';
 import Chat from './components/Chat';
+import CreatePrivateRoom from './components/CreatePrivateRoom';
+import JoinPrivateRoom from  './components/JoinPrivateRoom';
+
 
 const router = new VueRouter({
     mode: 'history',
@@ -35,7 +38,7 @@ const router = new VueRouter({
             component: InfoPage,
         },
         {
-            path: '/room',
+            path: '/room/:room',
             name: 'gameroom',
             component: GameRoom,
         },
@@ -43,18 +46,11 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
-            props: {
-                title: "Game mode picker"
-            }
         },
         {
             path: '/join',
             name: 'joinlobby',
             component: JoinLobby,
-            props: {
-                title: "Join a lobby"
-            }
-
         },
         {
             path: '/queue',
@@ -62,15 +58,25 @@ const router = new VueRouter({
             component: Queue,
         },
         {
-            path: 'createjoin',
-            name: 'createjoin',
-            component: CreateJoin
+            path: '/privategame',
+            name: 'privateGame',
+            component: PrivateGame
         },
         {
             path: '/chat',
             name: 'chat',
             component: Chat
-        }
+        },
+        {
+            path: '/createprivateroom/:room',
+            name: 'createPrivateRoom',
+            component: CreatePrivateRoom
+        },
+        {
+            path: '/joinprivateroom',
+            name: 'joinPrivateRoom',
+            component: JoinPrivateRoom
+        },
     ],
 });
 
