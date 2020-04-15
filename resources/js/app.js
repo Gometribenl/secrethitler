@@ -16,6 +16,7 @@ Vue.use(VueChatScroll)
 
 Vue.component('message-component', require('./components/MessageComponent.vue').default);
 Vue.component('game-room', require('./components/GameRoom.vue').default);
+Vue.component('roles', require('./components/Roles.vue').default);
 
 
 const chat = new Vue({
