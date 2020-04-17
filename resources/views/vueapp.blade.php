@@ -27,6 +27,13 @@
         @endauth
     </div>
 @endif
+<script>
+    window.Laravel = {!! json_encode([
+       'csrfToken' => csrf_token(),
+       'apiToken' => $token_name ?? null,
+   ]) !!};
+</script>
 <script type="text/javascript" src="/js/vueapp.js"></script>
+
 </body>
 </html>
