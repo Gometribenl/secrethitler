@@ -29,7 +29,7 @@
         display: inline-block;
         text-align: center;
         margin-right: 10%;
-        margin-left: auto;
+        margin-left: 10%;
         margin-bottom: 40px;
     }
     .btnWrapper{

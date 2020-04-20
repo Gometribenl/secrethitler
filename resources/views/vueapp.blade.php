@@ -9,7 +9,7 @@
     <title>Secret Hitler</title>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
 <body>
 <div id="app">
@@ -27,6 +27,6 @@
         @endauth
     </div>
 @endif
-<script type="text/javascript" src="js/vueapp.js"></script>
+<script type="text/javascript" src="/js/vueapp.js"></script>
 </body>
 </html>
