@@ -9,7 +9,8 @@ http.listen(3000, function () {
 });
 const nsp = io.of('/gameroom');
 
-let user = new Object();
+let user = [];
+
 
 
 // middleware
@@ -35,9 +36,9 @@ nsp.on('connection', function (socket) {
         method: 'GET', headers: {
             'Authorization': 'Bearer ' + token
         }
-    })
-        .then(response => response.json())
-        .then(json => user[json] = socket.id);
+    }).then(response => response.json())
+        .then(json => user[socket.id] = json);
+
 
     console.log(user);
 
@@ -45,7 +46,7 @@ nsp.on('connection', function (socket) {
 
 
     socket.on('disconnect', function () {
-
+        delete user[socket.id];
         console.log('user disconnected');
     });
 
