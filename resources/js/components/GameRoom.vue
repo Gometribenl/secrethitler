@@ -28,7 +28,7 @@
 
 <script>
 window.io = require("socket.io-client");
-let socket = io("http://localhost:3000");
+import {chatsocket} from '../socket'
 
 import Chat from "./Chat";
 import Header from "./Header";
@@ -43,13 +43,13 @@ export default {
     };
   },
   created() {
-    socket.on(
+    chatsocket.on(
       "stop voting",
       function() {
         this.showVoter = false;
       }.bind(this)
     );
-    socket.on(
+    chatsocket.on(
       "start voting",
       function() {
         this.showVoter = true;
@@ -58,10 +58,10 @@ export default {
   },
   methods: {
     startVoting() {
-      socket.emit("start voting");
+      chatsocket.emit("start voting");
     },
     stopVoting() {
-      socket.emit("stop voting");
+      chatsocket.emit("stop voting");
     },
     votingResult(result) {
       this.result = result;
