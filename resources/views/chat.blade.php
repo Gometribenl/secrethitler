@@ -79,7 +79,7 @@
         <ul class="list-group chat-color" v-chat-scroll>
             <message-component
                 v-for="value,index in chat.message"
-                :key=value.index
+            :key=value.index
                 :user=chat.user[index]
                 class="chat-text"
             >

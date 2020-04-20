@@ -6,9 +6,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueChatScroll from 'vue-chat-scroll'
 
-Vue.use(VueRouter)
-Vue.use(VueChatScroll)
-Vue.use(BootstrapVue)
+Vue.use(VueRouter);
+Vue.use(VueChatScroll);
+Vue.use(BootstrapVue);
 
 import App from './components/App'
 import Welcome from './components/Welcome'
@@ -18,7 +18,10 @@ import ModePicker from './components/ModePicker'
 import JoinLobby from './components/JoinLobby'
 import Queue from './components/Queue'
 import BootstrapVue from 'bootstrap-vue'
-import CreateJoin from './components/CreateJoin';
+import PrivateGame from './components/PrivateGame';
+import Chat from './components/Chat';
+import CreatePrivateRoom from './components/CreatePrivateRoom';
+import JoinPrivateRoom from  './components/JoinPrivateRoom';
 
 
 const router = new VueRouter({
@@ -35,7 +38,7 @@ const router = new VueRouter({
             component: InfoPage,
         },
         {
-            path: '/room',
+            path: '/room/:room',
             name: 'gameroom',
             component: GameRoom,
         },
@@ -43,18 +46,11 @@ const router = new VueRouter({
             path: '/modepicker',
             name: 'modepicker',
             component: ModePicker,
-            props: {
-                title: "Game mode picker"
-            }
         },
         {
             path: '/join',
             name: 'joinlobby',
             component: JoinLobby,
-            props: {
-                title: "Join a lobby"
-            }
-
         },
         {
             path: '/queue',
@@ -62,10 +58,25 @@ const router = new VueRouter({
             component: Queue,
         },
         {
-            path: 'createjoin',
-            name: 'createjoin',
-            component: CreateJoin
-        }
+            path: '/privategame',
+            name: 'privateGame',
+            component: PrivateGame
+        },
+        {
+            path: '/chat',
+            name: 'chat',
+            component: Chat
+        },
+        {
+            path: '/createprivateroom/:room',
+            name: 'createPrivateRoom',
+            component: CreatePrivateRoom
+        },
+        {
+            path: '/joinprivateroom',
+            name: 'joinPrivateRoom',
+            component: JoinPrivateRoom
+        },
     ],
 });
 
@@ -73,51 +84,4 @@ const app = new Vue({
     el: '#app',
     components: { App },
     router,
-});
-
-Vue.component('message-component', require('./components/MessageComponent.vue').default);
-
-const chat = new Vue({
-    el: '#chat',
-    data: {
-        message: '',
-        chat: {
-            message: [],
-            user: [],
-        },
-        numberOfUsers: 0
-    },
-    methods: {
-        send() {
-            if (this.message.length !== 0)
-                this.chat.message.push(this.message);
-            this.chat.user.push('You');
-            axios.post('/send', {
-                message: this.message
-            })
-                .then(response => {
-                    this.message = '';
-                })
-                .catch(error => {
-                    console.log(error);
-                });
-        }
-    },
-    mounted() {
-        Echo.private('chat')
-            .listen('ChatEvent', (e) => {
-                this.chat.message.push(e.message);
-                this.chat.user.push(e.user);
-            })
-        Echo.join(`chat`)
-            .here((users) => {
-                this.numberOfUsers = users.length;
-            })
-            .joining(() => {
-                this.numberOfUsers += 1;
-            })
-            .leaving(() => {
-                this.numberOfUsers -= 1;
-            });
-    }
 });
