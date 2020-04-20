@@ -17,4 +17,4 @@ Auth::routes();
 
 Route::get('/{any}', function(){
     return view('vueapp');
-})->where('any', '.*');
+})->where('any', '.*')->middleware('auth');
