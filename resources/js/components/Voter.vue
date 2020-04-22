@@ -10,7 +10,7 @@
 
 <script>
 window.io = require("socket.io-client");
-let socket = io("http://localhost:3000");
+import {chatsocket} from '../socket'
 
 import Countdown from "./Countdown";
 
@@ -39,19 +39,19 @@ export default {
     };
   },
   created() {
-    socket.on(
+    chatsocket.on(
       "vote yes",
       function() {
         this.votes.push("yes");
       }.bind(this)
     );
-    socket.on(
+    chatsocket.on(
       "vote no",
       function() {
         this.votes.push("no");
       }.bind(this)
     );
-    socket.on(
+    chatsocket.on(
       "stop voting",
       function() {
         this.showVoter = false;
@@ -60,14 +60,14 @@ export default {
   },
   methods: {
     stopVoting() {
-      socket.emit("stop voting");
+      chatsocket.emit("stop voting");
     },
     voteYes() {
-      socket.emit("vote yes");
+      chatsocket.emit("vote yes");
       this.showButtons = false;
     },
     voteNo() {
-      socket.emit("vote no");
+      chatsocket.emit("vote no");
       this.showButtons = false;
     },
     calcVotes() {
