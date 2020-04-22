@@ -74,4 +74,23 @@
         </div>
     </div>
 </div>
+    <style>
+        .card {
+            border-color: #F7E2C0;
+            background-color: transparent;
+        }
+
+        .btn-primary {
+            background-color: transparent;
+            border-color: black;
+            box-shadow: 2px 2px black;
+            color: #F7E2C0;
+        }
+        .btn-primary:hover {
+            background-color: transparent;
+            border-color: black;
+            box-shadow: 2px 2px black;
+            color: #F7E2C0;
+        }
+    </style>
 @endsection

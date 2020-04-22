@@ -15,6 +15,7 @@ Route::post('send','ChatController@send');
 
 Auth::routes();
 
+
 Route::get('api_token', function(Illuminate\Http\Request $request) {
     echo $request->arjan;
     return \App\User::find(1);
@@ -26,4 +27,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Illuminate\Http\Reques
 
 Route::get('/{any}', function(){ $token = Auth::User()->createToken('token_name');
     return view('vueapp', ['currentUser'=>Auth::User(), 'token_name'=>$token->plainTextToken]);
-})->where('any', '.*');
+})->where('any', '.*')->middleware('auth');
+
